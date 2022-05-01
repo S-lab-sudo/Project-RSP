@@ -1,0 +1,36 @@
+.navBar>ul>li a {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 2px 20px;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.navBar>ul>li {
+    float: left;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.black1 {
+    background: rgba(0, 0, 0, 40%);
+    transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+.black2 {
+    background: rgba(0, 0, 0, 20%);
+    transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+}
+.black2:hover{
+    background: rgba(0, 0, 0, 40%);    
+    box-shadow: 0 3px 3px #00000085;
+}

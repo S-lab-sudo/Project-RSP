@@ -5,27 +5,8 @@
     display: flex;
     justify-content: space-evenly;
 }
-
-
 .logo>img{
     height: 100%;
-}
-.navBar>ul>li a{
-    font-size: 20px;
-    padding: 5px 10px;
-    background: rgba(0,0,0,20%);
-    margin: 2px 20px;
-    color: #ffff;
-    border-radius: 5px;
-}
-.navBar>ul>li{
-    float: left;
-    list-style-type: none;
-    cursor: pointer;
-}
-a{
-    text-decoration: none;
-    color: #fff;
 }
 .donateButton>button{
     font-size: 20px;
