@@ -2,6 +2,11 @@ import React from "react";
 import "./OurDogs.css";
 import d1 from './3.jpg'
 import d2 from './2.jpg'
+import img1 from './img/1.jpg'
+import img2 from './img/2.jpg'
+import img3 from './img/3.jpg'
+import img4 from './img/4.jpg'
+import img5 from './img/5.jpg'
 
 export default function OurDogs() {
   return (
@@ -35,11 +40,8 @@ export default function OurDogs() {
         <div className="dogs">
           <div className="row1">
             <div className="dog1 dog">
-              <div className="dogImg">
-                <img src="" alt="" />
-              </div>
-              <div className="dogName">
-                German Shepherd
+              <div className="dogImg centeredDiv centeredDiv">
+                <img src={img1} alt="" />
               </div>
               <div className="btns">
                 <div className="buybtn">
@@ -51,12 +53,10 @@ export default function OurDogs() {
               </div>
             </div>
             <div className="dog2 dog">
-              <div className="dogImg">
-                <img src="" alt="" />
+              <div className="dogImg centeredDiv">
+                <img src={img2} alt="" />
               </div>
-              <div className="dogName">
-                German Shepherd
-              </div>
+
               <div className="btns">
                 <div className="buybtn">
                   <button>Buy your companion</button>
@@ -67,12 +67,10 @@ export default function OurDogs() {
               </div>
             </div>
             <div className="dog3 dog">
-              <div className="dogImg">
-                <img src="" alt="" />
+              <div className="dogImg centeredDiv">
+                <img src={img3} alt="" />
               </div>
-              <div className="dogName">
-                German Shepherd
-              </div>
+
               <div className="btns">
                 <div className="buybtn">
                   <button>Buy your companion</button>
@@ -85,12 +83,10 @@ export default function OurDogs() {
           </div>
           <div className="row2">
           <div className="dog3 dog">
-              <div className="dogImg">
-                <img src="" alt="" />
+              <div className="dogImg centeredDiv">
+                <img src={img5} alt="" />
               </div>
-              <div className="dogName">
-                German Shepherd
-              </div>
+
               <div className="btns">
                 <div className="buybtn">
                   <button>Buy your companion</button>
@@ -101,12 +97,10 @@ export default function OurDogs() {
               </div>
             </div>
           <div className="dog4 dog">
-              <div className="dogImg">
-                <img src="" alt="" />
+              <div className="dogImg centeredDiv">
+                <img src={img4} alt="" />
               </div>
-              <div className="dogName">
-                German Shepherd
-              </div>
+
               <div className="btns">
                 <div className="buybtn">
                   <button>Buy your companion</button>
