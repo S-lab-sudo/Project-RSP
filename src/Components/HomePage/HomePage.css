@@ -1,0 +1,165 @@
+.homePage1 {
+    margin: 3em 0;
+    width: 62.5%;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.mainMottoDiv {
+    text-align: left;
+}
+
+.mainMotto {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.by {
+    font-size: 20px;
+}
+
+.homeLeftQuote {
+    width: 50%;
+}
+
+.homeRightImage {
+    width: 50%;
+}
+
+.homeRightImage>img {
+    width: 100%;
+}
+
+.points>ol>li {
+    margin: 5px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.firstBlockButtons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.advise>button,
+.donate>button {
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.advise>button {
+    background-color: #008BDA;
+    padding: 10px 2em;
+}
+
+.donate>button {
+    background-color: #04CF00;
+    padding: 10px 2em;
+}
+
+.homePage2 {
+    width: 100%;
+    height: 500px;
+    background-image: url('./secondImg2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homePage2LeftContext {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.homePage2RightContext {
+    width: 48%;
+    margin-left: 2%;
+}
+
+.holder {
+    width: 62.5%;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+
+.checkNow {
+    margin-top: 2em;
+    padding: 8px 1.9em;
+    background-color: #008BDA;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 22.5px;
+}
+
+.how {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.brownish {
+    color: #D85300;
+    font-weight: 900;
+}
+
+.holder2 {
+    margin-top: 2em;
+    width: 62.5%;
+}
+
+.colisor {
+    height: 500px;
+    width: 500px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    overflow: hidden;
+}
+.slider{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    animation: slide 6s infinite ;
+    transform: translateX(0px);
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0px);
+    }
+    5%{
+        transform: translateX(-500px);
+    }
+    25%{
+        transform: translateX(-500px);
+    }
+    30%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(-1000px);
+    }
+    55%{
+        transform: translateX(-500px);
+    }
+    75%{
+        transform: translateX(-500px);
+    }
+    80%{
+        transform: translateX(0px);
+    }
+    85%{
+        transform: translateX(0px);
+    }
+    95%{
+        transform: translateX(0px);
+    }
+}

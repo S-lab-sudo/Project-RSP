@@ -1,0 +1,48 @@
+.donateMC{
+    height: auto;
+    margin: 4em 0;
+    width: 55.5%;
+    background-image: url('./Back.png');
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3em;
+}
+.global,.local{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sendMoneyWith{
+    margin-bottom: 1em;
+}
+.global{
+    margin-bottom: 2em;
+}
+.global>*:hover,.local>*:hover{
+    background: #ffffff85;
+    color: #000;
+}
+.global>*,.local>*{
+    width: 30%;
+    color: #fff;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0,0,0,50%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.paypal,.esewa,.imepay{
+    margin-left: 1em;
+}
+.imag{
+    width: 90%;
+}
+.imag>img{
+    width: 100%;
+}

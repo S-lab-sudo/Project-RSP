@@ -1,0 +1,34 @@
+.helpADogMC{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    width: 62.5%;
+    margin:2em 0em;
+    padding: 1em;
+    align-items: flex-start;
+}
+
+.helpADogMC>div{
+    padding: 0.5em 2em;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #178bda;
+    color: #fff;
+    width: 90.5%;
+    text-align: left;
+    position: relative;
+}
+.helpADogMC *{
+    cursor: pointer;
+}
+.helpADogMC>div>img{
+    position: absolute;
+    width: 30px;
+    right:5%;
+    top: 5%;
+    filter: invert(1);
+}
+.hide{
+    display: none;
+}

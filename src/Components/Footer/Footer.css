@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: #6E874B;
+    padding: 1em 0;
+    color: #fff;
+}
+.footer ol>li{
+    list-style-type: none;
+    text-align: left;
+    cursor: pointer;
+}
+ol>li:first-child{
+    color: #000;
+    font-weight: 900;
+}

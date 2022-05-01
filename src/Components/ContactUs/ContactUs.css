@@ -1,0 +1,50 @@
+.contactus{
+    min-height: 70vh;
+}
+.contactUsMC{
+    margin:3em 0em;
+    width: 62.5%;
+}   
+.flName>input{
+    width: 50%;
+    padding: 0.8em 1em;
+}
+.flName{
+    display: flex;
+    width: 100%;
+}
+.email>input{
+    width: 100%;
+    padding: 0.8em 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.message>textarea{
+    width: 100%;
+    height: 80px;
+    padding: 0.8em 1em;
+    margin-bottom: 1em;
+}
+.email,.message{
+    width: 95.5%;
+}
+/* .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+
+.sendmessage{
+    font-size: 18px;
+    padding: 0.5em 2em;
+    border: none;
+    outline: none;
+    background-color: #008BDA;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.holder44{
+    width: 90%;
+}

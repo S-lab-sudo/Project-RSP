@@ -1,0 +1,48 @@
+.goalsMC {
+    width: 62.5%;
+    margin: 2em 0;
+}
+
+.getDonation,
+.dHelath,
+.spay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.rightImg,
+.leftImg,
+.upImg {
+    height: 300px;
+    width: 300px;
+}
+
+.serviceDog1,.Adoption{
+    width: 50%;
+    margin: 0 1em;
+}
+
+.leftMotto,
+.rightMotto,.Adoption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.upImg>img{
+    width: 100%;
+}
+.rightImg>img,
+.leftImg>img {
+    height: 100%;
+}
+
+.desc {
+    text-align: left;
+}
+
+.lastContainer {
+    display: flex;    
+    margin: 2em 0;
+}

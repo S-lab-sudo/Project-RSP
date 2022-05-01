@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.centeredDiv{
+  display: grid;
+  place-items: center;
+}
