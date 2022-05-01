@@ -9,9 +9,6 @@ import { useNavigate } from 'react-router-dom';
 
 export default function HomePage() {
   const navigate = useNavigate();
-  const handleAdvise=()=>{
-    
-  }
   return (
     <div className="homePageContainer centeredDiv">
       <div className="homePage1">
@@ -72,7 +69,7 @@ export default function HomePage() {
               <label className="how" htmlFor="">
                 How your donation is being utilized?
               </label>
-              <button className="checkNow">Check Now !</button>
+              <button onClick={()=>navigate('/goals')} className="checkNow">Check Now !</button>
             </div>
           </div>
         </div>
