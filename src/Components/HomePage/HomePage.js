@@ -4,8 +4,14 @@ import rightImg from "./rightImg.png";
 import Colisor1 from "./coloisor/1.png";
 import Colisor2 from "./coloisor/2.jpg";
 import Colisor3 from "./coloisor/3.jpg";
+import { useNavigate } from 'react-router-dom';
+
 
 export default function HomePage() {
+  const navigate = useNavigate();
+  const handleAdvise=()=>{
+    
+  }
   return (
     <div className="homePageContainer centeredDiv">
       <div className="homePage1">
@@ -29,11 +35,11 @@ export default function HomePage() {
             <div className="firstBlockButtons">
               <div className="advise">
                 {" "}
-                <button>Advise</button>
+                <button onClick={()=>navigate('/contactus')} >Advise</button>
               </div>
               <hr />
               <div className="donate">
-                <button>Donate</button>
+                <button onClick={()=>navigate('/donate')} >Donate</button>
               </div>
             </div>
           </div>

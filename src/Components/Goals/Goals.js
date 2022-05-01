@@ -55,7 +55,7 @@ export default function Goals() {
               <h2>Service dogs</h2>
               <div className="desc">
                 We send our dogs to be well trained as best service dogs, which
-                can help in different field like police, military, etc and help
+                can help in different field and help
                 differently abled people.
               </div>
             </div>
