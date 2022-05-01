@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Header></Header>
         <Routes>
-          <Route path="/Project-RSP" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/helpadog" element={<HelpADog />} />
           <Route path="/donate" element={<Donate />} />

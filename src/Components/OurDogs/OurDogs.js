@@ -40,7 +40,7 @@ export default function OurDogs() {
         <div className="dogs">
           <div className="row1">
             <div className="dog1 dog">
-              <div className="dogImg centeredDiv centeredDiv">
+              <div className="dogImg centeredDiv">
                 <img src={img1} alt="" />
               </div>
               <div className="btns">
